@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica", "Verdana", "Roboto", sans-serif !important;
+}
+.redText {
+    color: red;
+}
+#block1 {
+    background-position: 47.24% 41.32%;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+    color: white;
+    padding-top: 80px;
+}
+.block1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+.title1 {
+    display: flex;
+    justify-content: start;
+}
+.title1 > img {
+    height: 46px;
+    width: 70px;
+    margin-right: 40px;
+}
+.title1 > p {
+    text-align: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.topForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.form-left {
+    margin-top: 100px;
+    width: 60%;
+}
+.form-right {
+    width: 40%;
+}
+.formMainText {
+    
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1.2;
+}
+.formBigText {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.37;
+    }
+.formList > p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.form {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+form {
+    padding: 20px;
+    color: #000;
+    text-align: center;
+}
+.formTopTeg {
+    text-align: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.37;
+}
+form > input {
+    border: 0;
+    display: block;
+width: 100%;
+
+min-height: 46px;
+line-height: 1.466;
+font-family: inherit;
+font-size: 15px;
+font-weight: 400;
+padding: 12px 25px 11px 15px;
+word-break: keep-all;
+transition: all .3s ease;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border: none;
+border-bottom: 1px solid #1B1B1C;
+padding: 12px 0 10px;
+margin: 10px 0 20px;
+font-size: 16px;
+font-weight: 600;
+}
+ 
+.formButton {
+     
+    font-size: 16px;
+    color: white;
+    padding: 20px 30px;
+    background-color: #E81212;
+    border: 1px solid white;
+}
+#block2 {
+    background-color: white;
+    padding: 30px 0;
+}
+.block2 {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.block2Left {
+    width: 45%;
+}
+.block2Right {
+    width: 50%;
+    padding-top: 35px;
+}
+#block3 {
+    background-color: #222222;
+    padding: 25px 0;
+    color: white;
+}
+.block3 {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gar > svg {
+    max-width: 100%;
+    max-height: 100%;
+    fill: currentColor;
+    fill-rule: evenodd;
+    height: 22px;
+}
+.iconText {
+    font-size: 20px;
+}
+#block4 {
+    background-position: 52.25% 100.00%;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 0;
+}
+.block4 {
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+
+
+}
+.video {
+    display: flex;
+    justify-content: space-between;
+}
+.videoBlock {
+    width: 45%;
+    text-align: center;
+}
+.youtubeBlock {
+    width: 100%;
+    height: 320px;
+}
+#block5 {
+    background-position: 50.25% 75.00%;
+    background-image: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 60px 0;
+    height: 600px;
+    text-align: center;
+}
+.block5 {
+    color: white;
+    width: 1100px;
+    margin: 0 auto;
+}
+.block5Flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block5Wrap {
+    width: 33%;
+}
+.wrapText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.block5Wrap > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
