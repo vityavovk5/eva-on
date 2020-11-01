@@ -304,7 +304,7 @@
                         Оформить заказ
                     </a>
                 </div>
-                <div class="block9Wrap">
+                <div class="block9Wrap ">
                     <p class="formBigText">
                         Комплект в салон с перемычкой (ХИТ!)
                     </p>
@@ -325,7 +325,7 @@
                         Оформить заказ
                     </a>
                 </div>
-                <div class="block9Wrap">
+                <div class="block9Wrap block9Center">
                     <p class="formBigText">
                         Комплект в салон с перемычкой (ХИТ!)
                     </p>
@@ -379,7 +379,7 @@
     <p class="formBigText">
         Больше отзывов можно найти в нашей группе ВКонтакте
     </p>
-    <center><div class="slider single-item">
+    <center><div class="slider single-item2">
         <div><img src="otz/1.png" alt="" class="slideOtz"></div>
         <div><img src="otz/2.png" alt="" class="slideOtz"></div>
         <div><img src="otz/3.png" alt="" class="slideOtz"></div>
@@ -421,7 +421,7 @@
                 </p>
             </div>
             </div>
-            <div class="block13Text">
+            <div class="block13Text block13Center">
                 <div class="block13Svg"><svg class="icon vector-icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/3.svg#icon"></use></svg></div>
                 <div class="block13Send"><p class="formBigText">
                     Отправляем
@@ -446,7 +446,7 @@
                 <p class="formBigText">
                     Оставьте заявку на подбор автоковриков EVA
                 </p>
-                <img src="img/bl14.jpg" alt="">
+                <img src="img/bl14.jpg" alt="" class="block14Img">
             </div>
             <div class="form-right">
                 <div class="form" id="formOrder">
@@ -478,17 +478,65 @@
         slidesToShow: 3,
       slidesToScroll: 3,
       responsive: [
+      
         {
-          breakpoint: 825,
+          breakpoint: 1200,
           settings: {
+            dots:true,
+            arrows: false,
+            slidesToScroll: 3,
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            dots:true,
             arrows: false,
             slidesToScroll: 2,
             slidesToShow: 2,
           }
         },
         {
-          breakpoint: 550,
+          breakpoint: 700,
           settings: {
+            dots:true,
+            arrows: false,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+</script>
+<script>  
+    $('.single-item2').slick({
+        dots:true,
+        slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 1160,
+          settings: {
+            dots:true,
+            arrows: false,
+            slidesToScroll: 2,
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 1150,
+          settings: {
+            dots:true,
+            arrows: true,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 710,
+          settings: {
+            dots:true,
             arrows: false,
             slidesToScroll: 1,
             slidesToShow: 1,
